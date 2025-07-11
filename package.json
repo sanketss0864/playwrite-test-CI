@@ -1,26 +1,14 @@
 {
-  "name": "playwrite-test",
+  "name": "playwrite-test-ci",
   "version": "1.0.0",
   "main": "index.js",
-  "bin": "index.js",
-  "scripts": {
-    "build": "pkg ."
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.53.2",
-    "@types/node": "^24.0.12"
-  },"pkg": {
-    "assets": [
-      "node_modules/playwright/.local-browsers/**"
-    ],
-    "targets": [
-      "node18-win-x64", 
-      "node18-linux-x64", 
-      "node18-macos-x64"
-    ]
+    "@playwright/test": "^1.54.0",
+    "@types/node": "^24.0.13"
   }
 }
